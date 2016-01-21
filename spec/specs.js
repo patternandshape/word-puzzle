@@ -9,7 +9,7 @@ describe("findVowels", function() {
   //   expect(findVowels("sample")).to.eql(['a','e']);
   // });
 
-  it("finds any vowels within the array and replaces them with a -", function() {
-    expect(findVowels("sample")).to.eql(['s','-','m','p','l','-']);
+  it("finds any vowels and replaces them with a -", function() {
+    expect(findVowels("sample")).to.equal('s-mpl-');
   });
 });
