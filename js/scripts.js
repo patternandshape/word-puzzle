@@ -34,7 +34,9 @@ $(document).ready(function() {
     event.preventDefault();
     var phrase = $("#inputWord").val();
     var endPhrase = findVowels(phrase);
+    //window.location.href ="disemvowelled.html";
     $(".output").text(endPhrase);
+    //alert(endPhrase);
 
 
   });
